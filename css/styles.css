@@ -1,0 +1,167 @@
+/* Default */
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+a {
+  text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Montserrat';
+}
+p {
+  color: #8f8f8f;
+}
+/* Headings */
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.section-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+/* Navbar */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+.navbar-brand-name {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+}
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.3rem;
+  font-family: 'Montserrat';
+  font-weight: 400;
+}
+.download-button {
+  margin: 5% 3% 5% 0%;
+  width: 40%;
+}
+.email-button {
+  color: #fff;
+}
+.email-button:hover {
+  color: #000
+}
+
+/* Title */
+#title .container-fluid {
+  text-align: left;
+  padding: 3% 15% 7%;
+}
+.title-image {
+  width: 25%;
+  position: absolute;
+  right: 15%;
+}
+
+
+/* Sections */
+.colored-section {
+  background-color: #2F5D62;
+}
+.white-section {
+  background-color: #fff;
+}
+
+/* Features */
+#features {
+  position: relative;
+}
+.features-box {
+  padding: 5%;
+}
+.feature-list {
+  font-family: 'Montserrat';
+  font-weight: 700;
+}
+.feature-icon {
+  color: #A7C4BC;
+  margin-bottom: 1rem;
+}
+.feature-icon:hover {
+  color: #2F5D62;
+  transition: 0.5s;
+}
+
+/* Testimonials */
+#testimonials {
+  color: #fff;
+}
+.testimonials-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Press */
+#press {
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Call To Action */
+.cta-header {
+  padding-bottom: 2%;
+}
+.cta-button {
+  margin: 15px;
+}
+.cta-button:hover {
+  background-color: #2F5D62;
+}
+
+/* Footer */
+#footer {
+  padding: 2%;
+  color: white;
+}
+#footer > p {
+  margin-bottom: 0;
+  color: #fff;
+}
+.footer-icon {
+  margin: 10px;
+  color: white;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-header  {
+    text-align: center;
+  }
+ 
+  .title-image {
+    display:none;
+  }
+}
